@@ -2,14 +2,6 @@
   "name": "Adyen Node.js Online Payments",
   "image": "mcr.microsoft.com/devcontainers/universal:2",
   "postAttachCommand": "bash .devcontainer/setup.sh",
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "dbaeumer.vscode-eslint",
-        "esbenp.prettier-vscode"
-      ]
-    }
-  },
   "portsAttributes": {
     "3000": {
       "label": "Application",
